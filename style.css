@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #1f2937;
+    display: flex;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.logo {
+    padding-left: 10%;
+    font-size: 24px;
+    color: #f9faf8;
+    text-decoration: none;
+    
+}
+
+.navlinks {
+    display: flex;
+    margin-left: auto;
+    padding-right: 100px;
+
+
+}
+
+.navlinks a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 20px;
+}
+
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    height: auto;
+    padding: 15%;
+    flex: 1 1 auto;
+    gap: 80px;
+
+
+}
+
+.hsec {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.htax {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.ctabtn {
+    background-color: #3882f6;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 2%;
+    border-radius: 3px;
+    margin-top: 30px;
+
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+
+
+}
+
+.info {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.imgs div {
+    justify-content: center;
+
+    text-align: center;
+    margin-bottom: 5%;
+
+
+}
+.quote{
+    text-align: center;
+    padding:10% ;
+    background-color: #e5e7eb;
+    font-style: italic;
+    color: #1f2937;
+    font-size: 36px;
+}
+.boxcta{
+    background-color: #3882f6;
+    display: flex;
+    margin: 10%;
+    border-radius:7px ;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: #e5e7eb;
+}
+.boxcta button{
+    background-color: #3882f6;
+    border-color: white;
+    border-style:solid;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 3px;
+    margin-left: 20%;
+    color: #e5e7eb;
+}
+.footer{
+    text-align: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 50px;
+    line-height: 50px;
+}
